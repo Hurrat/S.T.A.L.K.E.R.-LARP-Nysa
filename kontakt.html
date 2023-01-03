@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Kontakt | S.T.A.L.K.E.R. Zona Nysa</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <script src="https://kit.fontawesome.com/930763d907.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+  <link href='css/style.css' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="grafiki/icon.png" />
+</head>
+
+<body>
+
+  <div id="background">
+    <div id="opacity"></div>
+  </div>
+
+  <!-- Upper bar -->
+
+  <nav>
+
+    <div class="wrapper">
+      <div id="navlogo">
+        <a href="index.html"><img src="grafiki/logo.png"></a>
+      </div>
+
+      <div id="navtext">
+        <a class="activeoptions" href="kontakt.html">Kontakt</a>
+        <a class="options" href="organizatorzy.html">Organizatorzy</a>
+        <a class="options" href="galeria.html">Galeria</a>
+        <a class="options" href="informacje.html">Informacje</a>
+      </div>
+    </div>
+
+  </nav>
+
+
+  <!-- Content -->
+
+  <main>
+
+    <div class="wrapper">
+      <h1 class="maintitle">MASZ JAKIEŚ PYTANIA?<br>NAPISZ DO NAS WIADOMOŚĆ.</h1>
+      <form action="mail.php" method="POST">
+        <input name="firstname" type="text" class="hide-robot">
+        <p class="inputname">Imię i Nazwisko</p> <input class="form" type="text" name="name" minlength="3" required>
+        <p class="inputname">E-mail</p> <input class="form" type="email" name="email" minlength="5" required>
+        <p class="inputname">Temat</p> <input class="form" type="text" name="subject" minlength="2" required>
+        <p class="inputname">Treść</p><textarea class="form" name="message" rows="6" cols="25"
+          required></textarea><br />
+        <p class="inputname">Wszystkie pola są wymagane</p>
+        <input class="btn_send" type="submit" value="Wyślij"><input class="btn_send" type="reset" value="Wyczyść">
+      </form>
+
+      <h2 class="maintitle">JAK DO NAS DOJECHAĆ?</h2>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1598.364918057787!2d17.467750158875976!3d50.478389734792465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaa7a499b752f6076!2zNTDCsDI4JzQyLjIiTiAxN8KwMjgnMTIuMiJF!5e1!3m2!1spl!2spl!4v1670918872404!5m2!1spl!2spl"
+        id="map" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+
+  </main>
+
+
+  <!-- Footer -->
+
+  <footer>
+
+    <div class="wrapper">
+      <p>© S.T.A.L.K.E.R. Zona Nysa</p>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
